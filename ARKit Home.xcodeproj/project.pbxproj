@@ -15,6 +15,8 @@
 		CDA9970420FF09C500E6D727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA9970220FF09C500E6D727 /* LaunchScreen.storyboard */; };
 		CDA9970F20FF09C600E6D727 /* ARKit_HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9970E20FF09C600E6D727 /* ARKit_HomeTests.swift */; };
 		CDA9971A20FF09C600E6D727 /* ARKit_HomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9971920FF09C600E6D727 /* ARKit_HomeUITests.swift */; };
+		CDA9972820FF10E700E6D727 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9972720FF10E700E6D727 /* StatusViewController.swift */; };
+		CDA9972A20FF11BF00E6D727 /* ViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9972920FF11BF00E6D727 /* ViewController+ARSessionDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CDA9971520FF09C600E6D727 /* ARKit HomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit HomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA9971920FF09C600E6D727 /* ARKit_HomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_HomeUITests.swift; sourceTree = "<group>"; };
 		CDA9971B20FF09C600E6D727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA9972720FF10E700E6D727 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		CDA9972920FF11BF00E6D727 /* ViewController+ARSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSessionDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		CDA996F620FF09C400E6D727 /* ARKit Home */ = {
 			isa = PBXGroup;
 			children = (
+				CDA9972920FF11BF00E6D727 /* ViewController+ARSessionDelegate.swift */,
 				CDA996F720FF09C400E6D727 /* AppDelegate.swift */,
 				CDA996F920FF09C400E6D727 /* art.scnassets */,
 				CDA996FB20FF09C400E6D727 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				CDA9970020FF09C500E6D727 /* Assets.xcassets */,
 				CDA9970220FF09C500E6D727 /* LaunchScreen.storyboard */,
 				CDA9970520FF09C500E6D727 /* Info.plist */,
+				CDA9972720FF10E700E6D727 /* StatusViewController.swift */,
 			);
 			path = "ARKit Home";
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA996FC20FF09C400E6D727 /* ViewController.swift in Sources */,
+				CDA9972A20FF11BF00E6D727 /* ViewController+ARSessionDelegate.swift in Sources */,
+				CDA9972820FF10E700E6D727 /* StatusViewController.swift in Sources */,
 				CDA996F820FF09C400E6D727 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F749ZW86GL;
 				INFOPLIST_FILE = "ARKit Home/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F749ZW86GL;
 				INFOPLIST_FILE = "ARKit Home/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

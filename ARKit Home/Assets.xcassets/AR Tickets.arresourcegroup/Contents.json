@@ -1,0 +1,29 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "resources" : [
+    {
+      "filename" : "DDS-2-A.arreferenceimage"
+    },
+    {
+      "filename" : "HCW-5-A.arreferenceimage"
+    },
+    {
+      "filename" : "LMX-3-A.arreferenceimage"
+    },
+    {
+      "filename" : "SFL-2-A.arreferenceimage"
+    },
+    {
+      "filename" : "TCW-3-A.arreferenceimage"
+    },
+    {
+      "filename" : "XCA-2-X.arreferenceimage"
+    },
+    {
+      "filename" : "XCB-5-A.arreferenceimage"
+    }
+  ]
+}
